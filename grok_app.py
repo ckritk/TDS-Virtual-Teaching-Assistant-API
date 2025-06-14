@@ -16,7 +16,19 @@ from openai import OpenAI
 # Load everything
 model = SentenceTransformer('all-MiniLM-L6-v2')
 index = faiss.read_index("vector.index")
-with open("chunk_metadata.pkl", "rb") as f:
+
+# Google Drive File ID
+file_id = "1_0FlXBndnudiMCRCIkCsJVm0jEIYRE2M"
+url = f"https://drive.google.com/uc?id={file_id}"
+filename = "chunk_metadata.pkl"
+
+# Download if not present
+if not os.path.exists(filename):
+    print("Downloading chunk_metadata.pkl from Google Drive...")
+    gdown.download(url, filename, quiet=False)
+
+# Load the .pkl file
+with open(filename, "rb") as f:
     metadata = pickle.load(f)
 
 # FastAPI setup
