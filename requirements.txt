@@ -8,3 +8,4 @@ pillow
 pytesseract
 openai
 python-multipart
+gdown
