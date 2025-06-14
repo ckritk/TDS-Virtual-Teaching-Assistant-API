@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+numpy
+faiss-cpu
+sentence-transformers
+pydantic
+pillow
+pytesseract
+openai
+python-multipart
