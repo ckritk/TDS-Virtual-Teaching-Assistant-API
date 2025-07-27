@@ -1,7 +1,3 @@
-Thanks! Here's the updated and concise `README.md` as per your instructions:
-
----
-
 # TDS Virtual Teaching Assistant API
 
 This project builds an intelligent API that acts as a Virtual Teaching Assistant for the **Tools in Data Science (TDS)** course (Jan 2025, IIT Madras Online BSc). It enables automated answering of student questions using both text and image inputs.
