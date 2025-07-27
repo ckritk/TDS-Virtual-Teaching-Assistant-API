@@ -1,6 +1,6 @@
 # TDS Virtual Teaching Assistant API
 
-This project builds an intelligent API that acts as a Virtual Teaching Assistant for the **Tools in Data Science (TDS)** course (Jan 2025, IIT Madras Online BSc). It enables automated answering of student questions using both text and image inputs.
+This project builds an intelligent API that acts as a Virtual Teaching Assistant for the **Tools in Data Science (TDS)** course (Jan 2025, IIT Madras Online BS Data Science and Applications). It enables automated answering of student questions using both text and image inputs.
 
 The backend performs the following:
 
