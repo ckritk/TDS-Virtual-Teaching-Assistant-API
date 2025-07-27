@@ -91,4 +91,4 @@ curl "http://localhost:8000/api/" \
 ```
 
 ## License
-This project is licensed under the MIT License. See ```LICENSE.md``` for more details.
+This project is licensed under the MIT License. See ```LICENSE``` for more details.
