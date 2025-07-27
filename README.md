@@ -90,8 +90,5 @@ curl "http://localhost:8000/api/" \
 }
 ```
 
-The API returns a response within **30 seconds**.
-
----
-
-Let me know if you want this saved as a file or deployed as GitHub Pages content.
+## License
+This project is licensed under the MIT License. See LICENSE for more details.
