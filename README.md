@@ -17,7 +17,7 @@ The backend performs the following:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/tds-virtual-ta-api.git
+git clone https://github.com/ckritk/TDS-Virtual-Teaching-Assistant-API.git
 cd tds-virtual-ta-api
 ```
 
